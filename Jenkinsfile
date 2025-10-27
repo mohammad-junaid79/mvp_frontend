@@ -108,9 +108,9 @@ pipeline {
     post {
         success {
             echo '✅ Pipeline completed successfully!'
-            echo '🌐 React App: http://65.0.124.193'
-            echo '🔗 FastAPI Backend: http://3.110.177.17:8000'
-            echo '📖 API Docs: http://3.110.177.17:8000/docs'
+            echo '🌐 React App: http://3.6.126.59'
+            echo '🔗 FastAPI Backend: http://3.6.126.59:8000'
+            echo '📖 API Docs: http://3.6.126.59:8000/docs'
         }
         failure {
             echo '❌ Pipeline failed!'
