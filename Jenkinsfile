@@ -12,7 +12,7 @@ pipeline {
 
         stage('Checkout') {
 
-            agent { label 'ec2-production' }
+            agent { label 'mvp_backend' }
 
             steps {
 
@@ -26,7 +26,7 @@ pipeline {
 
         stage('Install Dependencies') {
 
-            agent { label 'ec2-production' }
+            agent { label 'mvp_backend' }
 
             steps {
 
@@ -48,7 +48,7 @@ pipeline {
 
         stage('Build React App') {
 
-            agent { label 'ec2-production' }
+            agent { label 'mvp_backend' }
 
             steps {
 
@@ -82,7 +82,7 @@ pipeline {
 
         stage('Deploy to Nginx') {
 
-            agent { label 'ec2-production' }
+            agent { label 'mvp_backend' }
 
             steps {
 
@@ -128,7 +128,7 @@ pipeline {
 
         stage('Health Check') {
 
-            agent { label 'ec2-production' }
+            agent { label 'mvp_backend' }
 
             steps {
 
