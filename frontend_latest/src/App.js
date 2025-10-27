@@ -4,7 +4,7 @@ function App() {
   const [username, setUsername] = useState("");
   const [response, setResponse] = useState(null);
 
-  const API_BASE = "http://3.110.177.17:8000"; // replace
+  const API_BASE = "http://http://13.204.69.173:8000"; // replace
 
   const createUser = async () => {
     const res = await fetch(`${API_BASE}/users`, {
