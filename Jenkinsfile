@@ -108,7 +108,7 @@ pipeline {
     post {
         success {
             echo '✅ Pipeline completed successfully!'
-            echo '🌐 React App: http://13.203.77.35'
+            echo '🌐 React App: http://13.204.69.173:3000'
             echo '🔗 FastAPI Backend: http://3.6.126.59:8000'
             echo '📖 API Docs: http://3.6.126.59:8000/docs'
         }
